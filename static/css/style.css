@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Varela+Round&display=swap");
 body::-webkit-scrollbar {
   width: 0;
 }
@@ -10,13 +10,13 @@ html {
 body {
   margin: 0;
   padding: 0 3%;
-  font-family: "Mulish", sans-serif;
+  font-family: "Comfortaa", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
   letter-spacing: 0.2em;
-  background: linear-gradient(180deg, #392657 0%, rgba(57, 38, 87, 0.8) 100%);
-  color: #ffffff;
+  background:  #312544;
+  color: #e3d1fc;
 }
 
 h1,
@@ -76,7 +76,7 @@ ul {
   width: 55%;
   height: 3px;
   bottom: -12px;
-  background: #a178b9;
+  background: #EB6D6F;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -100,7 +100,7 @@ ul {
   letter-spacing: 0.3em;
   font-size: 70px;
   text-align: center;
-  color: #a178b9;
+  color: #EB6D6F;
   line-height: 1;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
@@ -120,24 +120,12 @@ ul {
   font-size: 60px;
   position: relative;
   text-align: left;
-  color: #cc8bf2;
-  line-height: 1;
+  color: #EB6D6F;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   display: flex;
   flex-direction: column;
   width: fit-content;
   margin-bottom: 60px;
-}
-
-.about__title::after {
-  position: absolute;
-  content: "";
-  border-radius: 10px;
-  width: 60%;
-  height: 1px;
-  bottom: -13px;
-  background: #fff;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .info-block {
@@ -164,7 +152,7 @@ ul {
   font-size: 60px;
   position: relative;
   text-align: left;
-  color: #cc8bf2;
+  color: #EB6D6F;
   line-height: 1;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   display: flex;
@@ -172,18 +160,6 @@ ul {
   width: fit-content;
   margin-bottom: 20px;
 }
-
-.skills__title::after {
-  position: absolute;
-  content: "";
-  border-radius: 10px;
-  width: 60%;
-  height: 1px;
-  bottom: -13px;
-  background: #fff;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
 
 .skills-list {
   display: flex;
@@ -207,7 +183,7 @@ ul {
 .skill__button {
   font: inherit;
   font-weight: 700;
-  color: #fff;
+  color: #e3d1fc;
   background: none;
   border: none;
   cursor: pointer;
@@ -215,7 +191,7 @@ ul {
 }
 
 .skill__button:hover {
-  color: #cc8bf2;
+  color: #EB6D6F;
 }
 
 .project {
@@ -247,7 +223,7 @@ ul {
   width: 55%;
   height: 3px;
   bottom: -12px;
-  background: #a178b9;
+  background: #EB6D6F;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -266,24 +242,13 @@ ul {
   font-size: 60px;
   position: relative;
   text-align: left;
-  color: #cc8bf2;
+  color: #EB6D6F;
   line-height: 1;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   display: flex;
   flex-direction: column;
   width: fit-content;
   margin-bottom: 20px;
-}
-
-.feedback__title::after {
-  position: absolute;
-  content: "";
-  border-radius: 10px;
-  width: 60%;
-  height: 1px;
-  bottom: -13px;
-  background: #fff;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .form {
@@ -301,16 +266,16 @@ ul {
 .form__input {
   width: 100%;
   font: inherit;
-  background: #392657;
-  border: 2px solid #a178b9;
-  color: #fff;
+  background: #702e5c;
+  border: 2px solid #EB6D6F;
+  color: #e3d1fc;
   padding: 15px;
   border-radius: 10px;
   filter: drop-shadow(5px 5px 4px rgba(0, 0, 0, 0.25));
 }
 
 .form__input::placeholder {
-  color: #fff;
+  color: #e3d1fc;
 }
 
 .form__input:active,
@@ -323,8 +288,8 @@ ul {
 .form__button {
   font: inherit;
   font-weight: 800;
-  color: #fff;
-  background: linear-gradient(111.97deg, #CC8BF2 35.63%, rgba(204, 139, 242, 0) 150.16%);
+  color: #e3d1fc;
+  background: linear-gradient(111.97deg, #EB6D6F 35.63%, rgba(204, 139, 242, 0) 150.16%);
   filter: drop-shadow(5px 5px 4px rgba(0, 0, 0, 0.25));
   padding: 15px 30px;
   border-radius: 20px;
